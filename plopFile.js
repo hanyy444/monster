@@ -13,13 +13,13 @@ module.exports = function (plop) {
         actions: [
             {
                 type: "add",
-                path: "src/components/{{componentName}}/{{componentName}}.jsx",
+                path: "src/components/{{componentName}}/{{componentName}}.component.jsx",
                 templateFile: "plop-templates/component.jsx.hbs"
             },
             {
                 type: "add",
-                path: "src/components/{{componentName}}/{{componentName}}.scss",
-                templateFile: "plop-templates/component.scss.hbs"
+                path: "src/components/{{componentName}}/{{componentName}}.styles.jsx",
+                templateFile: "plop-templates/component.styles.jsx.hbs"
 
             }
         ]
@@ -42,8 +42,8 @@ module.exports = function (plop) {
             },
             {
                 type: "add",
-                path: "src/pages/{{pageName}}/{{pageName}}.page.scss",
-                templateFile: "plop-templates/page.scss.hbs"
+                path: "src/pages/{{pageName}}/{{pageName}}.page.styles.jsx",
+                templateFile: "plop-templates/page.styles.jsx.hbs"
 
             }
         ]

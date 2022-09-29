@@ -4,6 +4,12 @@
 /node_modules
 /.pnp
 .pnp.js
+.gitignore
+
+# templates
+plopFile.js
+/plop-templates
+Coding Notes.txt
 
 # testing
 /coverage

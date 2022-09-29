@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Input component renders without crashing 1`] = `
+<input
+  class="sc-dkzDqf erNWcM"
+  id="1"
+  name="email"
+  placeholder="Email"
+  role="email"
+  type="email"
+/>
+`;

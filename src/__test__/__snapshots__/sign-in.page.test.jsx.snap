@@ -1,0 +1,263 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test sign-in page test without crashing 1`] = `
+<div
+  class="sc-ksZaOG ftXRwN"
+  data-testid="sign-in-page"
+>
+  <div
+    class="sc-crXcEl ilphA-D"
+    data-testid="sign-up"
+  >
+    <h2
+      class="sc-evZas lohRKh"
+    >
+      Create Account
+    </h2>
+    <form>
+      <div
+        class="sc-papXJ kOOHHM"
+        data-testid="input"
+      >
+        <span
+          class="sc-jqUVSM dUTzrU"
+        >
+          <svg>
+            person.svg
+          </svg>
+        </span>
+        <input
+          class="sc-kDDrLX ItNFj"
+          id="1"
+          name="fullName"
+          placeholder="Full Name"
+          role="fullName"
+          type="text"
+          value=""
+        />
+      </div>
+      <div
+        class="sc-papXJ kOOHHM"
+        data-testid="input"
+      >
+        <span
+          class="sc-jqUVSM dUTzrU"
+        >
+          <svg>
+            email.svg
+          </svg>
+        </span>
+        <input
+          class="sc-kDDrLX ItNFj"
+          id="2"
+          name="email"
+          placeholder="Email"
+          role="email"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        class="sc-papXJ kOOHHM"
+        data-testid="input"
+      >
+        <span
+          class="sc-jqUVSM dUTzrU"
+        >
+          <svg>
+            lock.svg
+          </svg>
+        </span>
+        <input
+          class="sc-kDDrLX ItNFj"
+          id="3"
+          name="password"
+          placeholder="Password"
+          role="password"
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="sc-papXJ kOOHHM"
+        data-testid="input"
+      >
+        <span
+          class="sc-jqUVSM dUTzrU"
+        >
+          <svg>
+            lock.svg
+          </svg>
+        </span>
+        <input
+          class="sc-kDDrLX ItNFj"
+          id="4"
+          name="confirmPassword"
+          placeholder="Confirm Password"
+          role="confirmPassword"
+          type="password"
+          value=""
+        />
+      </div>
+      <button
+        class="sc-ftvSup kdQuZF"
+        data-testid="button"
+      >
+         
+        Sign Up
+         
+      </button>
+    </form>
+    <p>
+      Already have an account? 
+      <a
+        class="sc-breuTD blVlEI"
+        href="/sign-in"
+      >
+        Sign in
+      </a>
+    </p>
+  </div>
+  <div
+    class="sc-bczRLJ gtiVZX"
+    data-testid="sign-in"
+  >
+    <h2
+      class="sc-gsnTZi csQxvT"
+    >
+      Login
+    </h2>
+    <form>
+      <div
+        class="sc-papXJ kOOHHM"
+        data-testid="input"
+      >
+        <span
+          class="sc-jqUVSM dUTzrU"
+        >
+          <svg>
+            email.svg
+          </svg>
+        </span>
+        <input
+          class="sc-kDDrLX ItNFj"
+          id="1"
+          name="email"
+          placeholder="Email"
+          role="email"
+          type="email"
+          value=""
+        />
+      </div>
+      <div
+        class="sc-papXJ kOOHHM"
+        data-testid="input"
+      >
+        <span
+          class="sc-jqUVSM dUTzrU"
+        >
+          <svg>
+            lock.svg
+          </svg>
+        </span>
+        <input
+          class="sc-kDDrLX ItNFj"
+          id="2"
+          name="password"
+          placeholder="Password"
+          role="password"
+          type="password"
+          value=""
+        />
+      </div>
+      <div
+        class="sc-jSMfEi ewNGhq"
+      >
+        <div
+          class="sc-gKXOVf gZkWvs"
+        >
+          <input
+            type="checkbox"
+          />
+          <span>
+            Keep me logged in
+          </span>
+        </div>
+        <a
+          class="sc-hKMtZM eCuUVN"
+          href="/forgot-password"
+        >
+          Forgot password?
+        </a>
+      </div>
+      <button
+        class="sc-ftvSup kdQuZF"
+        data-testid="button"
+        type="submit"
+      >
+         
+        Sign In
+         
+      </button>
+    </form>
+    <span
+      class="sc-eCYdqJ jlVher"
+    >
+      or connect with
+    </span>
+    <div
+      class="sc-iBkjds hqNpae"
+    >
+      <span
+        class="sc-iqcoie kizipm"
+        data-testid="social-media-button"
+        height="3rem"
+        width="3rem"
+      >
+        <svg>
+          facebook.svg
+        </svg>
+      </span>
+      <span
+        class="sc-iqcoie kizipm"
+        data-testid="social-media-button"
+        height="3rem"
+        width="3rem"
+      >
+        <svg>
+          instagram.svg
+        </svg>
+      </span>
+      <span
+        class="sc-iqcoie kizipm"
+        data-testid="social-media-button"
+        height="3rem"
+        width="3rem"
+      >
+        <svg>
+          google.svg
+        </svg>
+      </span>
+      <span
+        class="sc-iqcoie kizipm"
+        data-testid="social-media-button"
+        height="3rem"
+        width="3rem"
+      >
+        <svg>
+          linkedin.svg
+        </svg>
+      </span>
+    </div>
+    <p>
+      Don't have an account? 
+      <a
+        class="sc-dkzDqf hTsIRa"
+        href="/sign-in"
+      >
+        Sign up
+      </a>
+    </p>
+  </div>
+</div>
+`;

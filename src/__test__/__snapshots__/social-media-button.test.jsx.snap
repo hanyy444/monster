@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test social media button renders without crashing 1`] = `
+<span
+  class="sc-bczRLJ kdRmkh"
+  data-testid="social-media-button"
+/>
+`;

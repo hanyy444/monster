@@ -1,11 +1,11 @@
 import React from 'react';
-import './{{componentName}}.scss'
+import { {{pascalCase componentName}}Container } from './{{componentName}}.styles.jsx'
 
 const {{pascalCase componentName}} = (props) => {
     return ( 
-        <div className="{{componentName}}">
-            {{componentName}}
-        </div>
+        <{{pascalCase componentName}}Container>
+            {{componentName}} component
+        </{{pascalCase componentName}}Container>
     )
 }
 

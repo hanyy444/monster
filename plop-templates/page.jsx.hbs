@@ -1,11 +1,11 @@
 import React from 'react';
-import './{{pageName}}.page.scss'
+import { {{pascalCase pageName}}Container } from './{{pageName}}.styles.jsx'
 
 const {{pascalCase pageName}}Page = (props) => {
     return ( 
-        <div className="{{pageName}}"> 
-            {{pageName}} 
-        </div>
+        <{{pascalCase pageName}}Container>
+            {{pageName}} page
+        </{{pascalCase pageName}}Container>
     )
 }
 

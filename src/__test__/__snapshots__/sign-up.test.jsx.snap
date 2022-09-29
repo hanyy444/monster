@@ -1,0 +1,117 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test sign-in component test without crashing 1`] = `
+<div
+  class="sc-bczRLJ cxTVLf"
+  data-testid="sign-up"
+>
+  <h2
+    class="sc-gsnTZi csQxvT"
+  >
+    Create Account
+  </h2>
+  <form>
+    <div
+      class="sc-hKMtZM hqvPuu"
+      data-testid="input"
+    >
+      <span
+        class="sc-eCYdqJ knxgHG"
+      >
+        <svg>
+          person.svg
+        </svg>
+      </span>
+      <input
+        class="sc-jSMfEi eMPPqM"
+        id="1"
+        name="fullName"
+        placeholder="Full Name"
+        role="fullName"
+        type="text"
+        value=""
+      />
+    </div>
+    <div
+      class="sc-hKMtZM hqvPuu"
+      data-testid="input"
+    >
+      <span
+        class="sc-eCYdqJ knxgHG"
+      >
+        <svg>
+          email.svg
+        </svg>
+      </span>
+      <input
+        class="sc-jSMfEi eMPPqM"
+        id="2"
+        name="email"
+        placeholder="Email"
+        role="email"
+        type="email"
+        value=""
+      />
+    </div>
+    <div
+      class="sc-hKMtZM hqvPuu"
+      data-testid="input"
+    >
+      <span
+        class="sc-eCYdqJ knxgHG"
+      >
+        <svg>
+          lock.svg
+        </svg>
+      </span>
+      <input
+        class="sc-jSMfEi eMPPqM"
+        id="3"
+        name="password"
+        placeholder="Password"
+        role="password"
+        type="password"
+        value=""
+      />
+    </div>
+    <div
+      class="sc-hKMtZM hqvPuu"
+      data-testid="input"
+    >
+      <span
+        class="sc-eCYdqJ knxgHG"
+      >
+        <svg>
+          lock.svg
+        </svg>
+      </span>
+      <input
+        class="sc-jSMfEi eMPPqM"
+        id="4"
+        name="confirmPassword"
+        placeholder="Confirm Password"
+        role="confirmPassword"
+        type="password"
+        value=""
+      />
+    </div>
+    <button
+      class="sc-gKXOVf bJTHOs"
+      data-testid="button"
+    >
+       
+      Sign Up
+       
+    </button>
+  </form>
+  <p>
+    Already have an account? 
+    <a
+      class="sc-dkzDqf hTsIRa"
+      href="/sign-in"
+    >
+      Sign in
+    </a>
+  </p>
+</div>
+`;
