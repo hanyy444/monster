@@ -1,24 +1,31 @@
 import styled, { css } from 'styled-components';
-import * as colors from '../../global-styles'
+import { colors } from '../../assets/styles/variables';
+import { Link } from 'react-router-dom';
 
+const { whiteColor, blackColor, primaryColor, secondaryColor, tertiaryColor, quaternaryColor } = colors;
 
 const ButtonContainer = styled.button`
-    width: 100%;
-    margin: 1rem 0;
-    padding: 1rem;
-    background-color: ${colors.serenity};
-    border-radius: 1rem;
-    border:none;
-    color:white;
-    cursor:pointer;
-    font-size: 1.3rem;
+    font-size: 2rem;
     font-weight: 500;
 
-    &:hover {
-        color: ${colors.serenity};
-        background-color: white;
-        outline: 1px solid ${colors.serenity}
-    }
+    margin: 1rem 0;
+    padding: 2rem 3rem;
+    
+    color: ${quaternaryColor};
+    
+    border-radius: 5rem;
+    
+    cursor:pointer;
+    border:1px solid ${tertiaryColor};
+
+    box-shadow: 0 2rem 4rem ${tertiaryColor+'15'};
+
+    /* &:hover {
+        color: ${secondaryColor};
+        background-color: ${tertiaryColor};
+        outline: 1px solid ${tertiaryColor};
+        
+    } */
 `
 
 export {

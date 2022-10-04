@@ -10,7 +10,7 @@ const moveUpThenDownTransition = css`
     }
 `
 
-const SocialMediaButtonContainer = styled.span`
+const SocialMediaButtonContainer = styled.i`
     cursor: pointer;
 
     transition: all .2s;

@@ -1,5 +1,4 @@
 import styled from 'styled-components';
-import * as colors from '../../global-styles'
 
 
 const InputContainer = styled.div`
@@ -18,6 +17,10 @@ const InputContainer = styled.div`
     border-bottom: 1px solid grey;
     margin: 3rem 0;
     position: relative;
+
+    /* &:focus-within {
+        border: 1px solid grey;
+    } */
 
 `
 

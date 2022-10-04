@@ -1,6 +1,7 @@
 import styled from 'styled-components';
-import * as colors from '../../global-styles'
+import { colors } from '../../assets/styles/variables';
 
+const {tertiaryColor} = colors
 const SignInContainer = styled.div`
     width: 100%;
     height: 100%;
@@ -11,7 +12,7 @@ const SignInContainer = styled.div`
 `
 
 const H1 = styled.h1`
-    color: ${colors.serenity};
+    color: ${tertiaryColor};
 ` 
 export {
     SignInContainer,

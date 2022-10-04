@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { useLocation } from 'react-router-dom';
 
 // Styles
-import { SignInContainer, 
-    H2, StyledLink, StyledSmallLink, FormExtras, 
-    KeepLoggedInDiv, SocialMediaDiv, StyledSpan } from './sign-in.styles.jsx'
+import { SignInContainer, StyledLink, StyledSmallLink, FormExtras, 
+    KeepLoggedInDiv, SocialMediaDiv, Span } from './sign-in.styles.jsx'
+import { HeadingSecondary } from '../../assets/styles/typography'
 
 // Icons
 import { ReactComponent as EmailIcon } from '../../assets/icons/email.svg'
@@ -26,7 +26,6 @@ const inputSource = [
         type: 'email',
         placeholder: 'Email',
         name: 'email',
-        role: 'email',
         icon: <EmailIcon/>,
     },
     {
@@ -34,7 +33,6 @@ const inputSource = [
         type: 'password',
         placeholder: 'Password',
         name: 'password',
-        role: 'password',
         icon: <LockIcon/>
     }
 ]
@@ -65,8 +63,8 @@ const SignIn = (props) => {
 
     return inputs && ( 
         <SignInContainer data-testid="sign-in" pathname={pathname}>
-            <H2>Login</H2>
-            <form onSubmit={onSubmit}>
+            <HeadingSecondary>Login</HeadingSecondary>
+            <form onSubmit={onSubmit} >
                 {inputSource.map( input => 
                         <Input key={input.id} value={inputs[input.name]} {...input} onChange={onChange}/> )}
                 <FormExtras>
@@ -78,7 +76,7 @@ const SignIn = (props) => {
                 </FormExtras>
                 <Button text='Sign In' type='submit'/>
             </form>
-            <StyledSpan>or connect with</StyledSpan>
+            <Span>or connect with</Span>
             <SocialMediaDiv>
                 <SocialMediaButton width='3rem' height='3rem' svgIcon={<FacebookIcon/>}  onClick={()=>alert('signed in with Facebook')}/>
                 <SocialMediaButton width='3rem' height='3rem' svgIcon={<InstagramIcon/>}  onClick={()=>alert('signed in with Instagram')}/>
