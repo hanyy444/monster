@@ -45,6 +45,10 @@ export const HeaderButtonContainer = styled.button`
     color: var(--quaternary-color);
         
     width: 25%;
+
+    @media screen and (max-width: 800px) {
+        width: 50%;
+    }
     
     position: relative;
     

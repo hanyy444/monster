@@ -20,7 +20,6 @@ const GlobalStyle = createGlobalStyle`
 
     html {
         font-size: 62.5%;
-        overflow-x: hidden;
         @media screen and (max-width: 600px){
             font-size: 50%;
         }
@@ -60,7 +59,8 @@ const GlobalStyle = createGlobalStyle`
         height: 100vh;
         width: 100vw;
         scroll-behavior: smooth;
-        overflow: scroll;
+        overflow-x: hidden;
+        overflow-y: scroll;
         ::-webkit-scrollbar {
             display: none;
         }

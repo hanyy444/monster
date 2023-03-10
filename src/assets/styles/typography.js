@@ -14,6 +14,11 @@ export const HeadingPrimaryMain = styled.p`
     letter-spacing: 3.5rem;
     text-align: center;
     margin-bottom: 5rem;
+
+    @media screen and (max-width: 600px){
+        font-size: 3rem;
+        letter-spacing: 2rem;
+    }
 `
 
 export const HeadingPrimarySub = styled.p`

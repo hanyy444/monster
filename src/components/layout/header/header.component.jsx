@@ -14,8 +14,8 @@ const Header = (props) => {
                     <HeadingPrimaryMain>Monster</HeadingPrimaryMain>
                     <HeadingPrimarySub>Your ride starts with us.</HeadingPrimarySub>
                 </HeadingPrimary>
+                <HeaderButton text={"Explore Now"} type="button"/>
             </HeaderTextBox>
-            <HeaderButton text={"Explore Now"} type="button"/>
         </HeaderContainer>
     )
 }

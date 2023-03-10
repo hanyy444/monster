@@ -2,7 +2,7 @@ import styled, {css} from 'styled-components';
 
 export const ImageCarouselContainer = styled.div`
     width: 100%;
-    flex: 4 0 40vw;
+    flex: 4 0 45vw;
     background-color: var(--white-color);
     overflow: hidden;
     position: relative;
@@ -12,7 +12,7 @@ export const ImageCarouselContainer = styled.div`
     align-items: center;
     justify-content: flex-start;
 
-    gap: 5rem;
+    gap: 2rem;
 
 `
 export const ImagesContainer = styled.div`
