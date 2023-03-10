@@ -3,7 +3,7 @@ import BookingImage from 'assets/imgs/booking-img.jpg'
 
 export const BookingSectionContainer = styled.section`
     width: 100%;
-    height: 80vh;
+    height: 100vh;
     padding: 5rem;
     background-color: var(--secondary-color);
     @media screen and (max-width: 800px) {

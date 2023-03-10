@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.js": "/monster/static/js/main.200a9e31.js",
+    "main.js": "/monster/static/js/main.5349916e.js",
     "static/media/bg-1.jpg": "/monster/static/media/bg-1.1ffb264500f6aef74de5.jpg",
     "static/media/booking-img.jpg": "/monster/static/media/booking-img.9a696927f8d4686625d4.jpg",
     "static/media/bg-2.jpg": "/monster/static/media/bg-2.9bc4bd49f5c130e002fe.jpg",
@@ -14,9 +14,9 @@
     "static/media/product-1.jpg": "/monster/static/media/product-1.c185eadac478af5e564b.jpg",
     "static/media/product-6.jpg": "/monster/static/media/product-6.0f5b7ba1930fdc97abd7.jpg",
     "index.html": "/monster/index.html",
-    "main.200a9e31.js.map": "/monster/static/js/main.200a9e31.js.map"
+    "main.5349916e.js.map": "/monster/static/js/main.5349916e.js.map"
   },
   "entrypoints": [
-    "static/js/main.200a9e31.js"
+    "static/js/main.5349916e.js"
   ]
 }
