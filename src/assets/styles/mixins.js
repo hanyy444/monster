@@ -1,14 +1,20 @@
 import { css } from "styled-components";
 
-import { colors } from "./variables";
-
 export const linearGradientText = css`
     background-image: linear-gradient(to bottom,
-    ${colors.primaryColor} 0%,  
-    ${colors.secondaryColor} 40%,
-    ${colors.quaternaryColor} 65%);
+                        var(--primary-color) 0%,  
+                        var(--secondary-color) 40%,
+                        var(--quaternary-color) 65%);
+    /* background-image: linear-gradient(to top,
+    var(--primary-color) 0%,  
+    var(--secondary-color) 50%); */
 
     background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
+`
+
+export const section = css`
+    padding: 5rem;
+    height: 100vh;
 `

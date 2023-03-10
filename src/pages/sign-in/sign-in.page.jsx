@@ -1,15 +1,13 @@
-import React, { useState } from 'react';
-import { useLocation } from 'react-router-dom';
-import SignIn from '../../components/sign-in/sign-in.component.jsx';
-import SignUp from '../../components/sign-up/sign-up.component.jsx';
-import { SignInContainer, H1 } from './sign-in.page.styles.jsx'
+import SignIn from './sign-in.component.jsx';
+import SignUp from './sign-up.component.jsx';
+import {SignInPageContainer} from './sign-in.page.styles.jsx'
 
 const SignInPage = (props) => {
     return ( 
-        <SignInContainer data-testid="sign-in-page">
+        <SignInPageContainer data-testid="sign-in-page">
             <SignUp />
             <SignIn/>
-        </SignInContainer>
+        </SignInPageContainer>
     )
 }
 
