@@ -5,14 +5,17 @@
 /.pnp
 .pnp.js
 .gitignore
+*.zip
 
 # templates
 plopFile.js
-/plop-templates
+plop-templates
 Coding Notes.txt
 
 # testing
-/coverage
+coverage
+*.test.jsx
+*.test.jsx.snap
 
 # production
 /build

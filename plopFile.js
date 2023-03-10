@@ -21,6 +21,11 @@ module.exports = function (plop) {
                 path: "src/components/{{componentName}}/{{componentName}}.styles.jsx",
                 templateFile: "plop-templates/component.styles.jsx.hbs"
 
+            },
+            {
+                type: "add",
+                path: "src/__test__/{{componentName}}.test.jsx",
+                templateFile: "plop-templates/component.test.jsx.hbs"
             }
         ]
     });
@@ -45,6 +50,11 @@ module.exports = function (plop) {
                 path: "src/pages/{{pageName}}/{{pageName}}.page.styles.jsx",
                 templateFile: "plop-templates/page.styles.jsx.hbs"
 
+            },
+            {
+                type: "add",
+                path: "src/__test__/{{pageName}}.test.jsx",
+                templateFile: "plop-templates/page.test.jsx.hbs"
             }
         ]
     })
