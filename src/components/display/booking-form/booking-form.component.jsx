@@ -1,6 +1,6 @@
-import BookingButton from 'components/button/booking-button.jsx';
-import Input from 'components/input/input.component.jsx';
 import React from 'react';
+import Input from 'components/input/input.component.jsx';
+import {BookingButton} from 'components/button';
 import { BookingFormContainer } from './booking-form.styles.jsx'
 
 const initialState = {
@@ -45,7 +45,7 @@ const BookingForm = (props) => {
                     <Input key={input.id} value={data[input.name]} onChange={onChange} {...input} />
                 ))
             }
-            <BookingButton></BookingButton>
+            <BookingButton type="submit" data-testid="booking-button"/>
         </BookingFormContainer>
     )
 }

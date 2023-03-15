@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { render, screen } from '@testing-library/react';
-import SignIn from "../components/sign-in/sign-in.component";
+import SignIn from "../pages/sign-in/sign-in.component";
 
 describe('Test sign-in component', () => {
     expect.assertions(1);

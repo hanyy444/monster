@@ -17,7 +17,7 @@ const moveUpThenDownTransition = css`
     }
 `
 
-export const FormButtonContainer = styled.button`
+export const FormButton = styled.button`
     ${baseStyle}
     padding: 1rem 0;
     font-size: 1.2rem;
@@ -27,7 +27,7 @@ export const FormButtonContainer = styled.button`
     border-radius: 5rem;
     transition: all .2s;
 
-    &:hover{
+    &:hover, &:focus{
         transform: scale(1.1) translateY(-.5rem);
     }
 
@@ -36,7 +36,7 @@ export const FormButtonContainer = styled.button`
     }
 `
 
-export const HeaderButtonContainer = styled.button`
+export const HeaderButton = styled.button`
     ${baseStyle}
     
     font-size: 2rem;
@@ -61,20 +61,22 @@ export const HeaderButtonContainer = styled.button`
     display: inline-block;
 
     animation: ${appearUp} 1s ease-out;
+
+    transform: translateY(0);
     
     transition: all .2s;
     
 
-    &:hover{
-        transform: translateY(-.3rem);
+    &:hover, &:focus {
+        transform: translateY(-.5rem);
         &::after{
             transform: scaleX(1.2) scaleY(1.4);
             opacity: 1;
         }
     }
 
-    &:active, &:focus{
-        transform: translateY(-.1rem);
+    &:active{
+        transform: translateY(-.2rem);
     }
 
     &::after{
@@ -95,7 +97,7 @@ export const HeaderButtonContainer = styled.button`
     }
 `
 
-export const NewsButtonContainer = styled.button`
+export const NewsButton = styled.button`
     ${baseStyle}
     border-bottom: 1px solid var(--tertiary-color);
     color: var(--tertiary-color);
@@ -105,7 +107,7 @@ export const NewsButtonContainer = styled.button`
     padding: 1rem .5rem;
     font-size: 1.5rem;
 
-    &:hover{
+    &:hover, &:focus{
         color: var(--white-color);
         border-radius: .2rem;
         background-color: var(--tertiary-color);
@@ -113,59 +115,65 @@ export const NewsButtonContainer = styled.button`
     }
 `
 
-export const BookingButtonContainer = styled.button`
+export const BookingButton = styled.button`
     ${baseStyle}
+
+    /* height: clamp(5rem, 7vw, 7rem); */
     font-weight: 600;
-    font-size: 1.8rem;
+    font-size: clamp(1.5rem, 2vw, 2rem);
+
     text-transform: uppercase;
-    height: clamp(5rem, 7vw, 7rem);
+
     width: 20%;
-    padding: 1.5rem 4rem;
+    padding: 4rem;
     border-radius: 100px;
-    transition: all .2s;
+
     position: relative;
-    background-color: var(--quaternary-color);
+
+    background-color: var(--tertiary-color);
     color: var(--secondary-color);
 
     transition: all .2s;
 
     &::before{
-        content: 'only four places left';
+        content: 'only 4 places left !';
+        font-size: inherit;
+        z-index: -1;
         visibility: hidden;
-        position: absolute;
         text-align: center;
         opacity: 0;
-        top:0;
-        left: 50%;
-        transform: translate(-50%, -100%);
+        position: absolute; 
+        transform: translate(-50%, -150%); 
+        width: 100%;
         transition: all .3s;
     }
 
     &::after{
-        content: 'Book now';
+        content: 'book now';
+        display: inline-block;
         visibility: visible;
         opacity: 1;
-        position: absolute;
         text-align: center;
-        top:0;
-        left: 50%;
-        transform: translate(-50%, 110%);
+
+        position: absolute; 
+        transform: translate(-50%, -50%); 
+        
         transition: all .3s;
     }
 
-    &:hover {
+    &:hover, &:focus {
         transition: all .3s;
         transform: scale(1.1) translateY(-.5rem);
         &::before{
-            opacity: 1;
             visibility: visible;
-            transform: translate(-50%, 40%);
+            opacity: 1;
+            transform: translate(-50%, -50%);
         }
         &::after{
             visibility: hidden;
             opacity: 0;
             z-index: -1;
-            transform: translate(-50%, 350%);
+            transform: translate(-50%, 100%);
         }
     }
 
@@ -175,11 +183,11 @@ export const BookingButtonContainer = styled.button`
 
     @media screen and (max-width: 800px) {
         width: 80%;
-        padding: 2rem;
+        padding: 3rem;
     }
 `
 
-export const SocialMediaButtonContainer = styled.button`
+export const SocialMediaButton = styled.button`
     transition: all .2s;
     
     svg {

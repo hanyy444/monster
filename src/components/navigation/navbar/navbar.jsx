@@ -1,7 +1,7 @@
 import React from 'react';
 import LogoSmallTwo  from 'assets/imgs/logo-small-2.png'
 // import LogoSmallThree from 'assets/icons/skull.svg';
-import { NavbarContainer, LogoBox, Logo, LogoText, Nav, NavList, NavItem, NavLink} from './navbar.styles';
+import { NavbarContainer, LogoBox, Logo, LogoText, Nav, NavList, NavLink} from './navbar.styles';
 
 
 const Navbar = (props) => {
@@ -15,9 +15,9 @@ const Navbar = (props) => {
 
             <Nav>
                 <NavList>
-                    <NavItem><NavLink href="#news-section">News</NavLink></NavItem>
-                    <NavItem><NavLink href="#products-section">Shop</NavLink></NavItem>
-                    <NavItem><NavLink href="#booking-section">Book</NavLink></NavItem>
+                    <NavLink href="#news-section">News</NavLink>
+                    <NavLink href="#products-section">Shop</NavLink>
+                    <NavLink href="#booking-section">Book</NavLink>
                     {/* <NavItem><NavLink href="/sign-in">Sign In</NavLink></NavItem> */}
                 </NavList>
             </Nav>

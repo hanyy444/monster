@@ -35,7 +35,7 @@ export const HeadingSecondary = styled.h2`
 `
 
 export const HeadingTertiary = styled.h3`
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 500;
     text-transform: uppercase;
     text-align: left;

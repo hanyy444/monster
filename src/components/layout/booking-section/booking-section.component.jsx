@@ -1,5 +1,5 @@
 import { HeadingTertiary } from 'assets/styles/typography.js';
-import BookingForm from 'components/booking-form/booking-form.component.jsx';
+import BookingForm from 'components/display/booking-form/booking-form.component.jsx';
 import React from 'react';
 import { BookingContainer, BookingSectionContainer } from './booking-section.styles.jsx'
 

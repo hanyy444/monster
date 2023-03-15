@@ -29,9 +29,10 @@ const InputTag = styled.input`
     width: 100%;
     @media screen and (max-width: 800px) {
         background-color: transparent;
+        font-size: 1.5rem;
         color: var(--white-color);
-        outline: 4px solid var(--tertiary-color);
-        padding: 5rem;
+        outline: 2px solid var(--tertiary-color);
+        padding: 3rem 4rem;
     }
     ::-webkit-input-placeholder{
         color: var(--tertiary-color)

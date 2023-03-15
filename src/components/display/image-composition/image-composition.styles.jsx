@@ -39,7 +39,7 @@ const imgBaseStyle = css`
 
     @media screen and (max-width: 800px) {
         position: relative;
-        width: 90%;
+        width: 100%;
     }
 `
 

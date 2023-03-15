@@ -11,7 +11,6 @@ export const NavbarContainer = styled.div`
 `
 
 export const LogoBox = styled.div`
-    cursor: pointer;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -25,7 +24,7 @@ export const Logo = styled.img`
 export const LogoText = styled.span`
     font-size: 1.2rem;
     text-transform: uppercase;
-    ${linearGradientText}
+    color: var(--quaternary-color);
 `
 
 export const Nav = styled.nav`
@@ -41,24 +40,17 @@ export const NavList = styled.ul`
     justify-self: flex-end;
 `
 
-export const NavItem = styled.li`
- 
-    padding: 2rem;
-    &:hover{
-        background-color: var(--tertiary-color);
-        transform: scale(1.1);
-    }
-`
-
 export const NavLink = styled.a`
+    padding: 2rem;
+    outline-color: var(--tertiary-color);
     &:link, &:visited {
-        color: var(--secondary-color);
+        color: var(--quaternary-color);
         text-transform: uppercase;
         transition: transform 0.1s ease;
     }
-
-    &:hover, &:active{
-        color: var(--teritary-color);
+    
+    &:hover, &:active, &:focus{
+        color: var(--secondary-color);
         display: inline-block;
         background-color: var(--tertiary-color);
     }

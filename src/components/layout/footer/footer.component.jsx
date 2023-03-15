@@ -12,10 +12,10 @@ const Footer = (props) => {
             </LogoBox>
             <Nav>
                 <NavList>
-                    <NavItem><NavLink href="#header">Explore</NavLink></NavItem>
-                    <NavItem><NavLink href="#news-section">News</NavLink></NavItem>
-                    <NavItem><NavLink href="#products-section">Products</NavLink></NavItem>
-                    <NavItem><NavLink href="#booking-section">Book</NavLink></NavItem>
+                    <NavLink href="#header">Explore</NavLink>
+                    <NavLink href="#news-section">News</NavLink>
+                    <NavLink href="#products-section">Products</NavLink>
+                    <NavLink href="#booking-section">Book</NavLink>
                 </NavList>
             </Nav>
         </FooterContainer>

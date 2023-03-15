@@ -21,6 +21,9 @@ const FooterContainer = styled.div`
 
     nav {
         min-width: 40vw;
+        a:link, a:visited {
+            color: var(--secondary-color)
+        }
     }
 `
 

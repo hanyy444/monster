@@ -4,6 +4,7 @@ import { ImageCarouselContainer,
     ImagesContainer, ImageName, Image, 
     Controls, Slider, SliderBar, ImageBoxCenter, ImageBoxLeft, ImageBoxRight} from './image-carousel.styles.jsx'
 
+// CHUNKS??
 import ProductOne from 'assets/imgs/product-1.jpg'
 import ProductTwo from 'assets/imgs/product-2.jpg'
 import ProductThree from 'assets/imgs/product-3.jpg'
@@ -61,18 +62,18 @@ const ImageCarousel = (props) => {
                     currentImages.map(img => (
                         img.id === active.img.id 
                         ? (
-                            <ImageBoxCenter>
+                            <ImageBoxCenter key={img.id}>
                                 <Image src={img.src} key={img.id} /> 
                                 <ImageName>{img.name}</ImageName>
                             </ImageBoxCenter>
                         ) : (
                             images.findIndex(image=>image.id === img.id) < active.index
                             ? (
-                                <ImageBoxLeft>
+                                <ImageBoxLeft key={img.id}>
                                     <Image src={img.src} key={img.id}/>
                                 </ImageBoxLeft>
                             ) : (
-                                <ImageBoxRight>
+                                <ImageBoxRight key={img.id}>
                                     <Image src={img.src} key={img.id}/>
                                 </ImageBoxRight>
                             )
