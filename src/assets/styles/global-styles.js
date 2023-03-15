@@ -55,9 +55,9 @@ const GlobalStyle = createGlobalStyle`
         color: var(--white-color);
     }   
     
-    .app{
-        height: 100vh;
-        width: 100vw;
+    .app {
+        height: 100%;
+        width: 100%;
         scroll-behavior: smooth;
         overflow-x: hidden;
         overflow-y: scroll;
